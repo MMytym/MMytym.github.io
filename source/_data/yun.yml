@@ -1,0 +1,144 @@
+
+mode: auto
+
+avatar:
+  url: /avatar.jpg
+
+reward:
+  enable: true
+  comment: 我很可爱，请给我钱
+
+comment:
+  enable: true
+  tips:
+    # - 尝试使用 utterances （基于 GitHub Issues）评论系统。
+    # - 您可以点击下方按钮切换对应评论系统，
+    # - <script>function showUtterances(){ document.querySelector(".utterances").style.display='block'; document.querySelector('#valine-container').style.display='none'; }function showValine(){ document.querySelector('#valine-container').style.display='block'; document.querySelector(".utterances").style.display='none'; }</script>
+    # - <a class="hty-button hty-button--raised" onclick="showValine()">Valine</a><a class="hty-button hty-button--raised" onclick="showUtterances()">utterances</a>
+    # - <style>.utterances{display:none;}</style>
+
+github_issues:
+  enable: true
+  username: MMytym
+  repository: MMytym.github.io
+  filters: is:issue
+
+valine:
+  enable: true
+  appId: "l5v3KDrwUH5uHqL3gVFnXwa1-gzGzoHsz" # your leancloud application appid
+  appKey: "lmFqGuhD3XtD8shU61lL665u" # your leancloud application appkey
+  placeholder: 大佬求指教&nbsp_(:з」∠)_ （填写邮箱可以收到回复通知～）
+  visitor: true
+  recordIP: true
+  enableQQ: true
+  requiredFields:
+    - nick
+    - mail
+
+footer:
+  since: 2020
+  # beian:
+  #   enable: true
+  #   icp: “”
+  # custom_text: “”
+  # ...
+
+engine_search:
+  enable: false
+
+# If you want to use it, you need config algolia appID in _config.yml!!!
+# https://github.com/oncletom/hexo-algolia
+# algolia_search:
+#   enable: true
+  # ...
+
+google_adsense:
+  enable: true
+  client: ca-pub-2245427233262012
+
+google_analytics:
+  enable: true
+  id: UA-121354150-1
+
+post_edit:
+  enable: true
+  url: https://github.com/MMytym/MMytym.github.io/tree/hexo/source/
+
+albums:
+  enable: true
+
+girls:
+  enable: true
+
+tags:
+  动画: crimson
+  漫画: orange
+  Parcel: "#21374b"
+  学习: saddlebrown
+  MAD: crimson
+  教程: royalblue
+  笔记: dimgray
+  分享: "#0078e7"
+  随笔: mediumpurple
+  Blender: "#d04d2d"
+  Linux: "#2577b1"
+  中传: "#ccb44b"
+  部落: "#DD306A"
+  科幻: midnightblue
+
+categories:
+  云游的小视频: "#FB7299"
+
+pages:
+  - name: 我的小伙伴们
+    url: /links/
+    icon: icon-menu-line
+    color: dodgerblue
+  - name: 喜欢的女孩子
+    url: /girls/
+    icon: icon-book-2-line
+    color: orange
+
+# cdn:
+#   pre: https://cdn.jsdelivr.net/gh/MMytym/MMytym.github.io@latest
+
+menu:
+  custom:
+    title: 留言板
+    path: /about/#comment
+    icon: icon-clipboard-line
+
+cursor:
+  enable: true
+
+baidu_push: true
+
+google_tagmanager:
+  enable: true
+  id: GTM-M9KWR9L
+
+
+# ---
+# social:
+# qq
+# https://wpa.qq.com/msgrd?v=3&uin=910426929&site=qq&menu=yes
+
+
+# wordcount:
+#   enable: true
+
+say:
+  api: https://elpsy.vercel.app/api/words/young
+  hitokoto:
+    enable: false
+
+utterances:
+  enable: true
+  repo: MMytym/MMytym.github.io
+  issue-term: pathname
+  label: comment
+  theme: preferred-color-scheme
+  
+wordcloud:
+  enable: true
+  height: 350
